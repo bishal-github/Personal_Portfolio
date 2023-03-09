@@ -4,9 +4,9 @@ import MyImg from '../assets/bishal_shrees.png'
 const About = () => {
   return (
     <div className='w-full h-screen bg-[#0a192f] text-gray-300'>
-        <div className='w-full h-full flex justify-center'>
-            <div className='max-w-[1000px] flex flex-col w-full'>
-                <div className='py-8 flex items:start sm:items-center justify-center mt-14'>
+        <div className='w-full h-full flex justify-center '>
+            <div className='max-w-[1000px] flex flex-col w-full justify-center mx-auto p-4'>
+                <div className='py-8 flex items:start sm:items-center justify-center'>
                     <p className='font-bold text-4xl border-b-4 border-pink-600'>About</p>
                 </div>
                 <div className='grid md:grid-cols-2 gap-8 px-4 py-6'>
