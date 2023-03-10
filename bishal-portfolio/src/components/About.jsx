@@ -3,7 +3,7 @@ import MyImg from '../assets/bishal_shrees.png'
 
 const About = () => {
   return (
-    <div className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
         <div className='w-full h-full flex justify-center '>
             <div className='max-w-[1000px] flex flex-col w-full justify-center mx-auto p-4'>
                 <div className='py-8 flex items:start sm:items-center justify-center'>
@@ -18,7 +18,7 @@ const About = () => {
                             Hi, I'm Bishal, nice to meet you. Please take a look around. 
                         </p>
                         <p2 className=' sm:text-xl flex items-start  sm:py-2 mt-[-15px] sm:mt-0 mx-auto'>
-                            I'm passionate about building excellent website and web applications. Eager to learn modern programming languages, frontend and backend frameworks and technologies to be proficient software developer.
+                            I'm passionate about building excellent website and web applications. Eager to learn modern programming languages, frontend and backend frameworks and technologies to be a proficient software developer.
                         </p2>
                     </div>
                 </div>
