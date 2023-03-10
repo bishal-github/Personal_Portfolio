@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { Link } from 'react-scroll'
+import Resume from '../assets/resume.pdf'
 
 
 const Navbar = () => {
@@ -42,8 +43,8 @@ const Navbar = () => {
             <ul>
                 <li className='flex w-[150px] h-[60px] justify-between items-center px-4 cursor-pointer ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600'><a className='flex w-full justify-between items-center text-gray-300' href="https://www.linkedin.com/in/bishal-shrees-466102234">LinkedIn<FaLinkedin size={30} /></a></li>
                 <li className='flex w-[150px] h-[60px] justify-between items-center px-4 cursor-pointer ml-[-100px] hover:ml-[0px] duration-300 bg-[#333333]'><a className='flex w-full justify-between items-center text-gray-300' href="https://github.com/bishal-github">Github<FaGithub size={30} /></a></li>
-                <li className='flex w-[150px] h-[60px] justify-between items-center px-4 cursor-pointer ml-[-100px] hover:ml-[0px] duration-300 bg-green-600'><Link className='flex w-full justify-between items-center text-gray-300' to='contact'smooth={true} duration={500}>Email<HiOutlineMail size={30} /></Link></li>
-                <li className='flex w-[150px] h-[60px] justify-between items-center px-4 cursor-pointer ml-[-100px] hover:ml-[0px] duration-300 bg-[#565f88]'><a className='flex w-full justify-between items-center text-gray-300' href="">Resume<BsFillPersonLinesFill size={30} /></a></li>
+                <li className='flex w-[150px] h-[60px] justify-between items-center px-4 cursor-pointer ml-[-100px] hover:ml-[0px] duration-300 bg-green-600'><Link className='flex w-full justify-between items-center text-gray-300' to='contact'smooth={true} duration={500}>Hire Me<HiOutlineMail size={30} /></Link></li>
+                <li className='flex w-[150px] h-[60px] justify-between items-center px-4 cursor-pointer ml-[-100px] hover:ml-[0px] duration-300 bg-[#565f88]'><a className='flex w-full justify-between items-center text-gray-300' href={Resume} download='resume'>Resume<BsFillPersonLinesFill size={30} /></a></li>
             </ul>
         </div>
     </div>
